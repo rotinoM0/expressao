@@ -1,98 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adquirir Expressão</title>
-    <link rel="stylesheet" href="styleloja.css">
-</head>
-<body>
-    <header>
-        <a href="index.html"><img class="logo" src="assets/logo.png" alt=""></a>
-        <nav>
-            <div id="llinks" class="left">
-                <a href="index.html" class="h-element">Início</a>
-                <a href="" class="h-element">Notícias</a>
-                <a href="" class="h-element">Sobre</a>
-                <a href="" class="h-element">Feedback</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adquirir Expressão</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styleloja.css">
+        <script src="https://kit.fontawesome.com/604b1b9163.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="assets/logo.png" alt=""></a>
+            <nav>
+                <div id="llinks" class="left">
+                    <a href="index.html" class="h-element">Início</a>
+                    <a href="" class="h-element">Notícias</a>
+                    <a href="" class="h-element">Sobre</a>
+                    <a href="" class="h-element">Feedback</a>
+                </div>
+                <div class="right">
+                    <a href="loja.html" class="h-element buy">Adquirir Expressão Editorial</a>
+                    <a class="h-element icon" onclick="toggleHidden()"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                
+                <!-- Top Navigation Menu -->
+            </nav>
+        </header>
+        <div class="topnav">
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="">Notícias</a>
+                <a href="">Sobre</a>
+                <a href="">Feedback</a>
             </div>
-            <div class="right">
-                <a href="loja.html" class="h-element buy">Adquirir Expressão Editorial</a>
-                <a class="h-element icon" onclick="toggleHidden()">+</a>
-            </div>
-            
-            <!-- Top Navigation Menu -->
-        </nav>
-    </header>
-    <div class="topnav">
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-            <a href="">Notícias</a>
-            <a href="">Sobre</a>
-            <a href="">Feedback</a>
         </div>
-    </div>
 
-    <div class="produtos">
-        <h1>Catálogo Expressão Editorial</h1>
-        <h2>Promoção de lançamento</h2>
-        <div class="catalogo">
-            <div class="item">
-                <h3>Expressão Digital <br>(Versão digital)</h3>
-                <a href=""><img src="assets/ebook.png" alt="ebook"></a>
-                <div>
-                    <p class="preco">R$ 140,00</p>
-                    <p class="desconto">  R$ 139,99</p>
+        <div class="produtos">
+            <h1>Catálogo Expressão Editorial</h1>
+            <h2>Promoção de lançamento</h2>
+            <div class="catalogo">
+                <div class="item">
+                    <h3>Expressão Digital <br>(Versão digital)</h3>
+                    <a href=""><img src="assets/ebook.png" alt="ebook"></a>
+                    <div>
+                        <p class="preco">R$ 140,00</p>
+                        <p class="desconto">  R$ 139,99</p>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <h3>Expressão Editorial <br>(Versão Física)</h3>
-                <a href=""><img src="assets/book.png" alt="livro físico"></a>
-                <div>
-                    <p class="preco">R$ 210,00</p>
-                    <p class="desconto">  R$ 209,99</p>
+                <div class="item">
+                    <h3>Expressão Editorial <br>(Versão Física)</h3>
+                    <a href=""><img src="assets/book.png" alt="livro físico"></a>
+                    <div>
+                        <p class="preco">R$ 210,00</p>
+                        <p class="desconto">  R$ 209,99</p>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <h3>Combo <br>(Digital + Físico)</h3>
-                <a style="display: flex;" class="combo">
-                    <img src="assets/ebook.png" alt="ebook">
-                    +
-                    <img src="assets/book.png" alt="livro físico">
-                </a>
-                <div>
-                    <p class="preco">R$ 310,00</p>
-                    <p class="desconto">  R$ 311,00</p>
+                <div class="item">
+                    <h3>Combo <br>(Digital + Físico)</h3>
+                    <a style="display: flex;" class="combo">
+                        <img src="assets/ebook.png" alt="ebook">
+                        +
+                        <img src="assets/book.png" alt="livro físico">
+                    </a>
+                    <div>
+                        <p class="preco">R$ 310,00</p>
+                        <p class="desconto">  R$ 311,00</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-            <div class="copyright">
-                <p>
-                    © 2024 - 2024 Thiago Amaral, Vitor, Matheus Fernandes, Gabriel Rodrigo, Fernando, Giovanni
-                    <br>
-                    Todos direitos reservados por mim mesmo. :D
-                </p>
-            </div>
-            <div class="links">
-                <ul>
-                    <li><strong>Adquira o livro</strong></li>
-                    <li><a href="loja.html">Comprar</a></li>
-                    <li><a href="">Reclamações</a></li>
-                    <li><a href="">Deixe seu feedback</a></li>
-                </ul>
-                <ul>
-                    <li><strong>Sobre a Expressão</strong></li>
-                    <li><a href="">Licensa</a></li>
-                    <li><a href="">Código de conduta</a> </li>
-                </ul>
-            </div>
-            <div class="contato">
-                <h3>Contate-nos</h3>
-                <p>Phone: +1 9876-1234</p>
-                <a href="#">E-Mail: helpfuture@expressao.com</a>
-            </div>
-        </footer>
-</body>
+        <footer>
+                <div class="copyright">
+                    <p>
+                        © 2024 - 2024 Thiago Amaral, Vitor, Matheus Fernandes, Gabriel Rodrigo, Fernando, Giovanni
+                        <br>
+                        Todos direitos reservados por mim mesmo. :D
+                    </p>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><strong>Adquira o livro</strong></li>
+                        <li><a href="loja.html">Comprar</a></li>
+                        <li><a href="">Reclamações</a></li>
+                        <li><a href="">Deixe seu feedback</a></li>
+                    </ul>
+                    <ul>
+                        <li><strong>Sobre a Expressão</strong></li>
+                        <li><a href="">Licensa</a></li>
+                        <li><a href="">Código de conduta</a> </li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <h3>Contate-nos</h3>
+                    <p>Phone: +1 9876-1234</p>
+                    <a href="#">E-Mail: helpfuture@expressao.com</a>
+                </div>
+            </footer>
+    </body>
 </html>
