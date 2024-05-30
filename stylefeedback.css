@@ -58,6 +58,16 @@ section {
     border-radius: 15px;
 }
 
+.sidebar img {
+    margin: 10px 0;
+    width: 70%;
+}
+
+.sidebar a:hover {
+    background-color: #0f0f0f;
+    color: aliceblue;
+}
+
 .interac {
     text-align: center;
     display: block;

@@ -29,25 +29,10 @@ h2 {
     display: block;
 }
 
-.item div {
-    display:  flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-
 .produtos img:hover {
     filter: brightness(120%);
 }
 
-.preco {
-    text-decoration: line-through;
-    background-color: #ea3535;
-    color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 5px;
-}
 
 .combo img{
     width: 100px;
