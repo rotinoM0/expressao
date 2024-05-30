@@ -6,6 +6,17 @@ body {
     overflow-x: hidden;
 }
 
+@media(max-width: 650px) {
+    .banner img {
+        display: none;
+    }
+}
+@media(min-width: 1024px) {
+    .left {
+        display: flex;
+    }
+}
+
 * {
     transition: 0.2s;
 }
@@ -41,13 +52,14 @@ body {
 }
 
 .banner img {
-    min-width: 20%;
     max-width: 30%;
+    min-height: 10%;
     border-radius: 0 50px 50px 0;
     margin-right: 100px;
     mask-image: linear-gradient(to right,transparent 10%, white 60%);
 /*    mask-image: linear-gradient(to left,transparent 10%, white 60%);*/
     filter: opacity(90%);
+    overflow: hidden;
 }
 
 .team {
